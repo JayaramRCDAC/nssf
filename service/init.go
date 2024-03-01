@@ -155,7 +155,7 @@ func (nssf *NSSF) FilterCli(c *cli.Context) (args []string) {
 }
 
 func (nssf *NSSF) Start() {
-	initLog.Infoln("Server started")
+	initLog.Infoln("Server started - By Jayaram R")
 
 	router := logger_util.NewGinWithLogrus(logger.GinLog)
 
